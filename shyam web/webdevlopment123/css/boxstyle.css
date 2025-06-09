@@ -1,0 +1,81 @@
+div{
+/*box */
+    height: 200px;
+    width: 500px;
+    background-color: rgb(190, 89, 178);
+ /*border*/
+    border-width:3px;
+    border-color:black;
+    border-style:solid;
+/*border sides*/
+   border-top-color:red;
+   border-top-style:dotted;
+   border-left-style:dotted;
+   border-right-color:rgb(224, 80, 23);
+ /*border radius */
+   border-radius:10px;
+   border-top-left-radius:10px;
+   border-top-right-radius:10px;
+ /* padding setting*/
+   padding-top:10px;
+ /* margine setting;
+   margin-bottom:25px;*/
+   margin:20px;
+   margin-left:20px;
+
+}
+h1{
+    /*width: 200px;
+    height:101px;
+    border-color:darkgoldenrod;
+    border-width:15px;
+    border-style:dashed;*/
+    border:10px solid blue;/*border shorthand*/
+    /*border-radius:40%;*/
+
+}
+button{
+    border:2px solid black;
+    border-radius:5px;
+     /*padding-right:10px;
+   padding-left:10px;*/
+    background-color:rgb(231, 135, 135);
+    color:rgb(38, 39, 39);
+    /*padding shorthand
+    padding:25px 10px
+    padding:top20px , 15pxleft and right,10pxbottom */
+    padding:10px 24px 20px 25px 
+}
+/*percentage relative unit*/
+h1{
+  border:2px solid blue;
+  width:50%;
+}
+#outer{
+  width:400px;
+  height:400px;
+  background-color:pink;
+ /* margin: 5px;*/
+ border:2px solid black/*em */
+}
+#inner{
+  height: 100px;
+  width: 100px;
+  background-color: cornflowerblue;
+  font-size: 3em;/*em*/
+  padding:1em
+  /*
+  margin-left:45px;*/
+  }
+  #signup{
+    font-size:15px;
+    border-radius: 15px;
+    border: 3px solid darkred;
+    background-color: black;
+    color:white;
+    padding-left:3em;
+    padding-right:3em;
+  }
+
+
+

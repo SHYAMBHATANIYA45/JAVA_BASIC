@@ -1,0 +1,42 @@
+#container{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin:10px auto;
+    border:2px solid black;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;/*element strat with end */
+  /*  justify-content:space-between;two more justify space content evenly and around */
+    /* flex wrap
+     flex-wrap: wrap;/*wrap reverse is red to violet*/
+    align-items:baseline;/*content inside div become in same base line */
+    /*priority of align self is greater compare to align item*/
+}
+#org{
+
+   /* align-self:flex-end;*/
+    /*flex-sizing
+    flex-basis: 50px; */
+    /*flex grow*/
+    flex-grow:2;
+    flex-shrink: 1;
+
+}
+h1{
+    text-align: center;}
+    
+#blue{
+    flex-basis: 400px;
+    flex-grow: 1;
+    max-width: 400px;
+    flex-shrink: 2;/*shrink blue*/
+}
+
+#container div{
+    height:50px;
+    width:300px;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+} 

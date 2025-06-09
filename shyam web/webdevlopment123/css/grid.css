@@ -1,0 +1,44 @@
+.container{
+    width: 600px;
+    height: 500px;
+    background-color:rgb(220, 249, 140);
+   /* display: flex;  
+    flex-direction:column;
+    flex-wrap: wrap;*/
+     display: inline-grid;
+  /* grid-template-rows: 80px 80px 80px 80px 80px ;
+    grid-template-columns:200px 200px 200px  ;*/
+    grid-template-rows:1fr 1fr 1fr 1fr;/* (it's same as A repeat)*/
+    grid-template-columns: repeat(3,1fr);
+    /*grid gaps
+    row-gap: 20px;
+    column-gap:40px ;*/
+    grid-gap:40px 10px;
+
+}
+.item{
+    width: 100px;
+    height:50px;
+    color: rgb(1, 10, 1);
+    background-color: rgb(17, 219, 31) ;
+    text-align: center;
+    justify-items: center;
+    justify-self:center;
+    /*vertical*/
+    align-items: center;
+    align-self:end;
+}  
+.one{
+   /* grid-column-start: 1;
+    grid-column-end: 3;*/
+    grid-column: 1/3;
+    place-self: end;
+
+}
+/*.two{
+    grid-row-start:1;
+    grid-row-end: 3;*/
+   /* grid-row:1/3;
+}*/
+
+
