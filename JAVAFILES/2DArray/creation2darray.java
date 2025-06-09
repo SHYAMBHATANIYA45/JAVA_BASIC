@@ -1,7 +1,7 @@
 import java.util.*;
 public class creation2darray{
 
-//Shyam Bahtaniya
+//Shyam Bhataniya
     public static boolean SearchKey(int matrix[][] , int key){
         int n = matrix.length , m= matrix[0].length;
         for(int i = 0 ; i < n ; i++){
