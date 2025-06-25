@@ -1,0 +1,204 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/image.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    position: fixed;
+}
+
+header {
+    height: 90px;
+    margin: 0px;
+    background-color: rgba(9, 9, 9), 0.8;
+
+}
+
+#one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+#two {
+    margin-top: 10px;
+}
+
+#three {
+    color: rgb(218, 138, 33);
+    margin-left: 10px;
+    font-weight: bold;
+    /* padding:10px 0px 0px 30px; */
+    font-size: 38px;
+}
+
+#four {
+    margin-top: 30px;
+}
+
+#five {
+    margin-top: px;
+    margin-right: 0px;
+    margin-top: 16px;
+}
+
+.home {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.search {
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    border: 1.5px solid rgb(172, 101, 9);
+    border-end-start-radius: 3.4px;
+    border-top-left-radius: 3.4px;
+    padding: 5px;
+    font-weight: bold;
+    float: left;
+    color: white;
+
+}
+
+#five {
+    margin-right: -55px;
+}
+
+#five button[type=submit] {
+    background-color: rgb(172, 101, 9);
+    height: 30.3px;
+    width: 70px;
+    border-end-end-radius: 3.1px;
+    border-start-end-radius: 3.1px;
+    border: none;
+    font-size: 12px;
+    /* border: 1.5px solid rgb(141, 84, 4); */
+    padding: 1px;
+    margin-top: 0px;
+    font-weight: bold;
+    color: rgb(234, 187, 126);
+    cursor: pointer;
+}
+
+#six {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#seven {
+    color: white;
+    width: 500px;
+    margin: 110px 0px 0px 60px;
+
+}
+
+h1.One {
+    color: rgb(43, 204, 204);
+    font-weight: bolder;
+    font-size: 35px;
+    margin: 3px 0px 3px 0px;
+}
+
+#eight {
+    color: rgb(237, 161, 21);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+
+}
+
+#ten {
+    background-color: rgb(172, 101, 9);
+    width: 95px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    color: rgb(234, 187, 126);
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+#eleven {
+    text-align: center;
+    width: 300px;
+    height: 410px;
+    background-color: rgba(11, 10, 10, 0.98);
+    border-radius: 5px;
+    margin: 105px 0px 0px 390px;
+}
+
+#tweleve {
+    color: rgb(130, 130, 4);
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input.login {
+    margin: 20px 85px 5px 20px;
+    width: 250px;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid rgb(234, 187, 126);
+    /* height: 30px; */
+    padding: 10px;
+    color: white;
+}
+
+#eleven button {
+    color: rgb(232, 183, 119);
+    background-color: rgb(218, 138, 33);
+    border-radius: 5px;
+    margin: 25px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.signUp {
+    color: whitesmoke;
+}
+
+#thirteen {
+    color: rgb(172, 101, 9);
+    text-decoration: none;
+}
+
+#fourteen {
+    color: whitesmoke;
+    margin-top: 8px;
+
+}
+
+#fifteen {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+i {
+    color: aliceblue;
+    margin-top: 2.5px;
+    padding: 15px;
+    font-size: 20px;
+}
