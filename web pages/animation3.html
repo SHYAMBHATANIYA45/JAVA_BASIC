@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            
+            width: 300px;
+            height: 200px;
+            margin: auto;
+            margin-top:100px;
+            border: 3px black solid;
+            position: relative;
+            overflow: hidden;
+        }
+        .main img{
+            width: inherit;
+            height: inherit;
+            position: absolute;
+            transition: all 0.5s;
+            
+        
+        }
+        .main:hover img{
+            transform: translateX(50%);
+        }
+        .content{
+        height: 300px;
+        width: 150px;
+        position: absolute;
+        background-color:green;
+        margin: 0px;
+        transition: all 0.5s;
+        box-sizing: border-box;
+         transform: perspective(200px)rotateY(90deg);
+         transform-origin: 0%;
+        
+    }
+    .main:hover .content{
+    transform: perspective(200px)rotateY(0deg);
+    transform-origin:0%;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <img src="./images/shyam.jpg" />
+        <div class="content"> 
+            <h1>hello</h1>
+            <p>Fuga inventore earum praesentium sapiente beatae? Neque maiores quia pariatur consequuntur provident!</p>
+        </div>
+    </div>
+</body>
+
+</html>

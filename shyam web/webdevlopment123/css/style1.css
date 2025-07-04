@@ -1,0 +1,40 @@
+/*h2{
+    color:orange;
+}
+p{
+    color:white;
+    background-color: black;
+}
+button{
+    color:blue;
+    background-color: white;
+}
+h1{
+    text-align:center;
+    color:#ffa511;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing:2px; 
+    text-transform: uppercase; 
+    font-family:League spartan;
+    line-height:normal;
+    text-decoration: teal double underline;
+    }*/
+    *{
+        font-family:'Courier New';
+
+    }
+    h1{
+        color: #1b74e4;
+    }
+    #searchbtn{
+        background-color: black;
+        color:white;
+    }
+    .userbtn{
+        background-color:aqua ;
+    }
+button:hover{
+    background-color:black;
+    color:rgb(209, 12, 45);
+}

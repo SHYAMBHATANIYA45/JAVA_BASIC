@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #main {
+            height: 300px;
+            width: 300px;
+            margin-top: 150px;
+            border: 5px solid black;
+            position: relative;
+            cursor: pointer;
+            overflow: hidden;
+            
+
+        }
+        main:hover{
+            transform: scale(1.2,1.2);
+            transition: 0.3s;
+          
+            
+        }
+
+
+        #main img {
+            height: inherit;
+            width: inherit;
+            position: absolute;
+
+
+        }
+
+        #main:hover img {
+            transform: scale(1.6);
+            transition: all 2s;
+              filter: grayscale(1);
+        }
+
+        /* img:hover {
+            transform: scale(1.3, 1.3);
+            transform: scaleZ(1.2);
+        } */
+
+        #one {
+            background-color: aqua;
+            height: 300px;
+            width: 150px;
+            position: absolute;
+
+        }
+
+        /* #one:hover img {
+            transform: scaleZ(1.2);
+        } */
+
+      #main:hover #one{
+            /* transform: scale(1.2, 1.2); */
+            transform: rotateY(90deg);
+            transform-origin: 0;
+            transition: all 0.5s;
+
+        }
+
+
+        #two{
+            background-color: rgb(117, 43, 208);
+            height: 300px;
+            width: 150px;
+            margin-left: 150px;
+            position: absolute;
+        }
+
+        #main:hover #two{
+            transform: rotateY(-90deg);
+            transform-origin: right;
+            transition: all 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+        <!-- <div class="submain"> -->
+        <img src="./images/image.jpeg" alt="image">
+        <div id="one"></div>
+        <div id="two"></div>
+            <!-- </div> -->
+</div>
+</body>
+
+</html>

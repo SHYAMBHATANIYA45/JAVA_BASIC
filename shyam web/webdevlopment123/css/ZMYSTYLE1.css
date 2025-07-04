@@ -1,0 +1,49 @@
+/*color property*/
+/*
+h1{
+    color:rgb(19, 209, 209);
+    background-color:black;
+}
+h2{
+    color:aquamarine;
+}
+p{
+    color:rgb(52, 11, 234);
+}
+button{
+    color:brown;
+    background-color:rgb(224, 224, 27);
+}
+h3 {
+    color:#ff00ff;   /*color system HEX{# COMPULSARY}
+}*/
+/*text align*/
+ h1{
+    text-align:center;
+  letter-spacing:10px;
+  text-decoration:underline;
+     }
+ h3{
+    text-align:left;
+    font-weight: 600;
+   }
+h2{
+    text-align:end/right;/*in css3 new key word come justify,end and start*/
+    font-weight: lighter;}
+    
+  p{
+    text-align:justify;
+    font-weight:800;
+    line-height: 2.5;
+    font-size: 30px;
+    font-family:Brush Script MT/*font style*/
+  }
+  h4{
+    font-weight: 800;
+    text-decoration:overline;
+  }
+  h5{
+    font-weight:700;
+    text-decoration: line-through;
+  }
+ 

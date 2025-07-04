@@ -1,0 +1,100 @@
+*{
+ font-family: 'Courier New', Courier, monospace;
+}
+/*h3{
+    color: purple;
+}*/
+h1,h3/*for giving same color both h1 and h3*/
+{
+    color: #b92b27;
+}
+#login/*id selector*/{
+   background-color: white;
+}
+#signup{
+    background-color: #be2626;
+    color: white;
+}
+.upvote /*class selector*/{
+    background-color: green;
+    color: white;
+}
+/*decendent selector*/
+ .post a{
+    color: purple;
+    background-color:yellow;
+ }
+ nav ul li a{
+    color: red;
+ }
+ /*sibling combitator*/
+ p+h3{
+    text-decoration:underline;
+ }
+ .upvote+button{
+    background-color:cadetblue;
+    color:black;
+ }
+ /*child combitator and one disadvantage only for one step child */
+ div>input{
+    background-color:salmon;
+ }
+ /*attribute selector*/
+ input[type="text"]{
+    color:red
+ }
+ input[type="password"] {
+    color:green;
+ }
+ input[type]{
+    background-color:ghostwhite;
+ } l
+ /*pseudo class*/
+  
+ button:hover{
+   background-color:black;
+   color:rgb(209, 12, 45);
+} 
+   h3:hover{
+      text-decoration: overline;
+   }
+   /*change on hover class an element,hover means that
+   click or operat particular element..like here we want hover buttons*/
+   button:hover{
+      background-color: #111010;
+      color: aliceblue;
+   }
+ /*active pseudo class ,change after the clicking*/
+ button:active{
+   background-color:hotpink;
+ }
+p:active{
+   font-weight: bold;
+   color:rgb(31, 31, 232);
+}
+/*checked pseudo class*/
+input[type="radio"]:checked+label{
+   color: red;
+   font-weight: bold;
+}
+/* imprtant..nth-of-type pseudo clas--
+use  if we want to change alternative ( odd,even  way) posts or our code elmnents then we use It*/
+.post:nth-of-type(odd){
+   background-color: rgb(222, 171, 94);
+}
+/*pseudo element*/
+/*first lettre*/
+h1::first-letter{
+   color: #0c0ce6;
+}
+p::first-line{
+   color: blue;
+}
+/*selectoin element ,we use for select    elemnet */
+p::selection{
+   background-color: red;
+}
+/*important porpertty-!important*/
+h2{
+   background-color:blue !important;   
+}

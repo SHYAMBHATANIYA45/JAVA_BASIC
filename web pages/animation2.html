@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            position: relative;
+            margin-top: 100px;
+            border: 3px solid black;
+            overflow: hidden;
+        }
+
+        .container img {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            transition: all 1s;
+
+
+        }
+
+        .container:hover img {
+            transform: translateY(-40%);
+            transition: all 1s;
+            perspective: 400px;
+        }
+
+        .content {
+            height: 200px;
+            width: 300px;
+            position: absolute;
+            background-color: rgb(186, 35, 35);
+            margin-top: 60%;
+            transform: perspective(400px) translateY(60%);
+            transition: all 1s;
+        }
+
+        .content p {
+            padding: 10px;
+        }
+
+        .container:hover .content {
+            transform: translateY(0%);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="container"><img src="./images/87e0b934-bd7f-404f-8c2e-3362f8e52f75.jpeg" />
+            <div class="content">
+                <p>inctio. Deleniti aliquid sequi perferendis eos placeat id cum reprehenderit non repellendus.</p>
+            </div>
+        </div>
+</body>
+
+</html>

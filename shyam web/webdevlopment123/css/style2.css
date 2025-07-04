@@ -1,0 +1,110 @@
+/*div{
+    height:100px;
+    width: 100px;
+    background-color:rgba(255,0,0,0.5);
+    
+    /*0.5 is alpha channel which shows visiblity of color
+    if i will set alpha chnnel zero than only heding can visible */
+    /*
+    transition-duration:1s;/*this is transition duration, change color in 1 second 
+    transition-delay:1s;/*this is transition delays, change color in 1 second 
+    transition-timing-function: steps(6, end);
+    /*DIV is goes to centre*/
+   /*transition:margin-top 2s ease-in 0.2s;
+}
+    #opacity{
+         opacity:1;/*if we will set opacity zero than whole div become invisible that's differnt 
+        between opacity and alpha channel
+        
+  }
+  div:hover{
+    background-color: rgba(0, 0, 0, 0.947);
+    margin-top:400px;
+    color: red;
+     }*/
+ 
+  /*section{
+    margin-top: 100px;
+  }
+  
+  div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+
+    
+
+  }
+ div:nth-of-type(2n){
+    background-color: #f7db6a;
+  }
+  div:nth-of-type(3n){
+    background-color:#ebb02d;
+  }
+  /*transform*/
+  #one{
+    transform:rotate(45deg);
+  }  
+  /*transform scale*/
+  #two{
+    transform: scale(0.5,2); /*transform scale translate*/
+ }
+ /*transform translate*/
+ #three{
+    transform:translate(100px,100px)/*we want change in x axis then we use tanslateX()*/
+ }
+ /*transform skew*/
+ #four{
+    transform:skew(30deg);
+
+ }
+ #five{
+    transform: rotate(30deg) translateX(150px);
+    margin-bottom:20px;
+ }
+/*image shawdow*/
+#shadow{
+  height: 400px;
+  width: 400px;
+  background-color: brown;
+  margin: 10 auto;
+  background-image:url(bgimage.jpg);
+  background-size: cover;/*cover property is use to cover full photo*/
+box-shadow: 5px 15px 9px rgb(4, 4, 4);/*box shadow (x-axis y-axis blureffect color)*/
+
+}
+div{
+  height:100px;
+  width: 100px;
+  background-color: green;
+  text-align: center;
+  border:3px solid black;
+  margin: 20px;
+  display:inline-block;
+
+}
+#static
+{
+  background-color: yellow;
+  position:static;
+  top:100px;
+  left:100px;
+}
+#relative{
+  background-color:yellow;
+  position: relative;
+  top: 100px;
+  left: 100px;/*positioon of div shift from the left too right 100px*/
+}
+#fixed{
+  background-color:yellow;
+  position:fixed;
+  top: 100px;
+  left: 100px;/*positioon of div shift from the left too right 100px*/
+}
+
+  
+  

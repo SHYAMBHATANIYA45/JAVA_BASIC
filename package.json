@@ -1,0 +1,19 @@
+{
+  "name": "web-develpment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHYAMBHATANIYA45/JAVA_BASIC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHYAMBHATANIYA45/JAVA_BASIC/issues"
+  },
+  "homepage": "https://github.com/SHYAMBHATANIYA45/JAVA_BASIC#readme"
+}

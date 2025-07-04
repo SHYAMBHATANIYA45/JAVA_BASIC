@@ -1,0 +1,38 @@
+#box1{
+    width:100px;
+    height: 100px;
+    background-color: green;
+
+}
+#box1:hover{
+    width:600px;
+    transition: 2s ease-in 1s;
+}
+#box2{
+    width:100px;
+    height: 100px;
+    background-color: rgb(228, 15, 15);
+    transform:translate(220px,200px);
+    transform: rotate(90deg);
+
+}
+#box3{
+    width:100px;
+    height: 100px;
+    background-color:lightblue;
+    transform: skew(20deg);
+}
+#box4{ width:100px;
+    height: 100px;
+    background-color:lightgreen;
+    box-shadow: 2px 2px 5px green;
+
+}
+#myPic{
+    width:200px;
+    height: 200px;
+    background-color: pink;
+    background-image: url(myPic.jpg);
+    background-size:cover;
+    opacity: 50%;
+}

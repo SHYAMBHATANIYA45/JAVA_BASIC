@@ -1,0 +1,207 @@
+body {
+    margin: 0px;
+}
+
+.header1 {
+    width: 100%;
+    height: 70px;
+    /* position: fixed; */
+    background-color: rgba(255, 255, 255);
+    position: relative;
+
+}
+@media (max-width:480px){
+.header1{
+    background-color: blue;
+}
+}
+
+#one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#two {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+#two img {
+    width: 57px;
+    height: 57px;
+    border-radius: 40%;
+    border: 2px solid black;
+}
+
+#two h1 {
+    margin: 5px 0px 0px 8px;
+
+}
+
+#two h1 span {
+    color: rgb(12, 196, 243);
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+#three {
+    margin: 30px 40px 0px 0px;
+}
+
+#three a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-weight: bold;
+
+}
+
+#four {
+    display: flex;
+    /* flex-direction: row;  */
+}
+
+#five img {
+    width: 400px;
+    height: 400px;
+    opacity: 0.9;
+    margin-top: 60px;
+    margin-left: 90px;
+
+}
+
+.content {
+    width: 500PX;
+    margin: 40px;
+}
+
+.content h6 {
+    background-color: green;
+    width: 150px;
+    font-size: smaller;
+    padding: 5px 0px 5px 20px;
+    margin: 45px 30px 0px 50px;
+}
+
+.content h1 {
+    width: 400px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 30px 0px 30px;
+    font-size: 50px;
+    text-indent: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content p {
+    margin-left: 52px;
+    width: 300px;
+    font-size: 11px;
+}
+
+#six {
+    width: 100%;
+    height: 90px;
+    display: flex;
+  
+    margin: 40px 10px 10px 0px;
+    justify-content: space-evenly;
+}
+
+/* .content2{
+    display: flex;
+} */
+.content button {
+    margin: 40px 0px 0px 80px;
+    background-color: burlywood;
+    height: 35px;
+    width: 120px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* .content button:hover{
+    /* transform:scaleZ(1.4); 
+} */
+
+.content2 img {
+    height: 50px;
+    width: 60px;
+    padding: 5px 10px 0px 10px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+
+.content2 {
+    display: flex;
+    justify-content:column;
+     width:fit-content;
+ 
+    
+}
+
+.content1{
+    width:125px;
+    
+    padding-left:1px;
+}
+.content1 h5 {
+    font-weight: bold;
+    /* background-color: aqua; */
+    margin-bottom:5px;
+    width: fit-content;
+    height:fit-content;
+    margin-top: 15px;
+    padding-bottom: 0px;
+}
+.content1 p{
+    font-size: small;
+    width: 120px;
+    margin-top: 10px;
+}
+.content12{
+ display: flex;
+    justify-content:column;
+     width:fit-content; 
+    margin-left: 98px;
+}
+
+#eight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#eight h6 {
+    width: 90px;
+    height: 15px;
+    color: aliceblue;
+    background-color: green;
+    text-align: center;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+#eight h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+#seven{
+    width: 100%;
+    height: 500px;
+    background-color: bisque;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+}
+/* === these operator check value with a data type and value both */
+/*== these operator check value with a value only
+ternary opereator (conditon?middle;rigth);
